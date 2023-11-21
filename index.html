@@ -25,7 +25,7 @@
         </div>
 
         <div class="text-center d-flex justify-content-center">
-            <ul class="list-unstyled list-group text-center">
+            <ul class="list-unstyled list-group text-center" v-if="emailList.length === 10">
                 <li class="list-group-item" v-for="email in emailList">{{ email }}</li>
             </ul>
         </div>
